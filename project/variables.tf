@@ -1,15 +1,8 @@
-
-variable "org_id" {
-  description = "ID da organização"
-  default     = "696084218136"
+variable "folder_id" {
+  description = "The ID of the folder to create the project in"
   type        = string
 }
 
-variable "folder_name" {
-  type        = string
-  default     = ""
-  description = "Nome do folder"
-}
 
 variable "project_name" {
   type = string
