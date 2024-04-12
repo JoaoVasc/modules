@@ -5,6 +5,5 @@ provider "google" {
 
 resource "google_folder" "folder_secundario" {
   display_name = var.folder_name
-  id = var.folder_name
   parent = var.folder_id
 }
